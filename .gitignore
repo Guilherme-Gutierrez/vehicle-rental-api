@@ -1,0 +1,66 @@
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Environment variables and secrets ###
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+### Spring local configurations ###
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+application-dev.properties
+application-dev.yml
+
+### Docker ###
+docker-compose.override.yml
+compose.override.yaml
+
+### Logs and temporary files ###
+*.log
+logs/
+*.pid
+
+### Operating System ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Misc ###
+*.class
